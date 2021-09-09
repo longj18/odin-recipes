@@ -1,11 +1,30 @@
 body{
-    
+    border: 2px solid blue;
 }
 
-h1{
+li{
+    margin: 20px;
+    border: 2px solid green ;
+    padding: 5px;
+}
+
+ul{
+    display: flex;
+}
+
+.mjlonir{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.header{
+    display: inline-block;
     text-align: center;
+
 }
 
-div{
-    flex-direction: row;
+.header.odin{
+    text-align: center;
+    margin: 40px;
 }
